@@ -274,7 +274,7 @@ def run_pipeline(input_path, out_dir, meta_path=None):
     #    정제 데이터에 대한 품질 검사 결과를
     #    quality 변수에 저장합니다.
     #
-    quality = quality_report(clean, summary)
+    quality = quality_report(raw, clean)
     # [중요]
     # 함수들을 따로 실행하는 것이 아니라
     # 앞 단계의 결과를 다음 단계의 입력으로 전달해야 합니다.
