@@ -1,0 +1,16 @@
+{
+  "agents": [
+    {
+      "agent": "planner",
+      "pricing": {
+        "rate": 0.2
+      }
+    },
+    {
+      "agent": "researcher",
+      "pricing": {
+        "rate": 0.4
+      }
+    }
+  ]
+}

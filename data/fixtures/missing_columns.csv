@@ -1,0 +1,14 @@
+﻿run_id,agent,latency_ms,status,day
+R01, Planner ,100,ok,2026-10-21
+R02,RESEARCHER,300,ok,2026-10-21
+R03,writer,200,ok,2026-10-21
+R04,planner,120,ok,2026-10-21
+R05,researcher,500,ok,2026-10-21
+R06,writer,250,ok,2026-10-21
+R07,planner,140,ok,2026-10-22
+R08,researcher,bad,error,2026-10-22
+R09,writer,,ok,2026-10-22
+R10,planner,-10,error,2026-10-22
+R11,researcher,900,error,invalid
+R12,writer,350,ok,2026-10-22
+R03,writer,200,ok,2026-10-21
